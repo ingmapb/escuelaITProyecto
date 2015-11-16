@@ -1,0 +1,20 @@
+Trabajar con Gibhub/ Git
+
+1. Empiezo a trabajar en local (en mi maquina)
+	a. Creo un directorio para crear mi Repositorio Local Comando mkdir 
+	b. Luego inicio mi repositorio con el comando git init
+	c. Creo un archivo X en este ejemplo un index.html
+	d. lo agrego al index de git con el comando git add "Nombre del archivo" index.html
+	c. luego hago un commit para agregarlo al repositorio local con el comando git commit -m "Coloco un mensaje" (siempre colocar el -m y el mensaje, si no manda a un editor dentro de la consola para crear el mensaje, para hacerlo primero se le da Escape y se escribe la letra i para insertar una linea, se escribe el mensaje y para guardalo le damos nuevamente a escape y seguidamente :wq eso permite guardar la linea y salir del editor, para evitar todo eso colocar el -m)
+
+
+
+Quiero subir los cambios a un Repositorio remoto (Github)
+
+a. Crear un usuario en Github.com
+b. Crear un proyecto en Github (repositorio Nuevo)
+c. Vincular el repositorio remoto de Github en el repositorio local comando:
+git remote add "Remoto(Alias)" "https://github.com/ingmapb/escuelaITProyecto.git(Direccion del Repositorio Web)"
+Para listar los Remotos con el comando git remote -v
+
+d. Empujar (push) mis cambios al remoto dado de alta en el paso c. Comando git push "remoto(alias)" y la rama master
