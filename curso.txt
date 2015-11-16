@@ -9,12 +9,22 @@ Trabajar con Gibhub/ Git
 
 
 
-Quiero subir los cambios a un Repositorio remoto (Github)
+	Quiero subir los cambios a un Repositorio remoto (Github)
 
-a. Crear un usuario en Github.com
-b. Crear un proyecto en Github (repositorio Nuevo)
-c. Vincular el repositorio remoto de Github en el repositorio local comando:
-git remote add "Remoto(Alias)" "https://github.com/ingmapb/escuelaITProyecto.git(Direccion del Repositorio Web)"
-Para listar los Remotos con el comando git remote -v
+	a. Crear un usuario en Github.com
+	b. Crear un proyecto en Github (repositorio Nuevo)
+	c. Vincular el repositorio remoto de Github en el repositorio local comando:
+	git remote add "Remoto(Alias)" "https://github.com/ingmapb/escuelaITProyecto.git(Direccion del Repositorio Web)"
+	Para listar los Remotos con el comando git remote -v
 
-d. Empujar (push) mis cambios al remoto dado de alta en el paso c. Comando git push "remoto(alias)" y la rama master
+	d. Empujar (push) mis cambios al remoto dado de alta en el paso c. Comando git push "remoto(alias)" y la rama master
+
+2. Primero creo el repositorio en Github y luego quiero trabajar en Local 
+	a. Creo un repositorio en Github.
+	b. Clono el repositorio en mi maquina local con el comando: git clone https://github.com/ingmapb/escuelaITProyecto2.git
+	c. git add <nombre>
+	d. git commit -m "Mensaje"
+	e. git push origin master
+	
+
+
