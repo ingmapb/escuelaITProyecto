@@ -25,6 +25,6 @@ Trabajar con Gibhub/ Git
 	c. git add <nombre>
 	d. git commit -m "Mensaje"
 	e. git push origin master
-	
+	f. para hacer agregar todos los archivos modificados el comando es: git add --all
 
 
