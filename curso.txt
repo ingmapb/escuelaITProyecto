@@ -23,7 +23,7 @@ Trabajar con Gibhub/ Git
 	a. Creo un repositorio en Github.
 	b. Clono el repositorio en mi maquina local con el comando: git clone https://github.com/ingmapb/escuelaITProyecto2.git
 	c. git add <nombre>
-	d. git commit -m "Mensaje".
+	d. git commit -m "Mensaje". Un Atajo para hacer commit sin git add, es con el comando git commit -a -m "mensaje"
 	e. git push origin master.
 	f. para hacer agregar todos los archivos modificados el comando es: git add --all.
 
