@@ -26,5 +26,6 @@ Trabajar con Gibhub/ Git
 	d. git commit -m "Mensaje". Un Atajo para hacer commit sin git add, es con el comando git commit -a -m "mensaje"
 	e. git push origin master.
 	f. para hacer agregar todos los archivos modificados el comando es: git add --all.
+	g. para listar los log de una manera mas sencilla se utiliza el comando: git log --pretty=format:"%h(para el id del log) - %an (Para el usuario que cambio), %ar (para el tiempo en el que lo cambio) : %s (Para el Mensaje)".
 
 
