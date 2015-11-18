@@ -43,6 +43,7 @@ Trabajar con Gibhub/ Git
 	%ce Committer email
 	%cd Committer date
 	%cr Committer date, relative
-	%s Subject
+	%s Subject...
+3. Practicando la modificacion de archivos por medio de Ramas o Branch
 
 
