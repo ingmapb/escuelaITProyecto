@@ -44,6 +44,8 @@ Trabajar con Gibhub/ Git
 	%cd Committer date
 	%cr Committer date, relative
 	%s Subject...
-3. Practicando la modificacion de archivos por medio de Ramas o Branch
+3. Practicando la modificacion de archivos por medio de Ramas o Branch
+4. Probando la ssh
+
 
 
